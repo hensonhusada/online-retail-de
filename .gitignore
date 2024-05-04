@@ -161,4 +161,5 @@ cython_debug/
 
 .astro/
 *.csv
-/include/gcp/
+include/gcp/
+include/metabase-data/
