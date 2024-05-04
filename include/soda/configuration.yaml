@@ -1,0 +1,14 @@
+data_source retail:
+  type: bigquery
+  connection:
+    account_info_json_path: /usr/local/airflow/include/gcp/personal-gcp.json
+    auth_scopes:
+    - https://www.googleapis.com/auth/bigquery
+    - https://www.googleapis.com/auth/cloud-platform
+    - https://www.googleapis.com/auth/drive
+    project_id: 'de-zoomcamp-2024-410912'
+    dataset: retail
+soda_cloud:
+  host: cloud.soda.io
+  api_key_id: 7d38658e-5bae-443d-ae8e-1f1bcbe8a954
+  api_key_secret: klUxaJest3L4iZYjZ1mVF_iSY3c4zHSIGxx_Eucm_mFi0vhyhVv8dg
